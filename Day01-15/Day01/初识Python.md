@@ -271,3 +271,78 @@ PyCharm的安装、配置和使用我们在后面会进行介绍。
     turtle.forward(100)
     turtle.mainloop()
     ```
+
+
+### 练习
+
+#### 安装环境
+
+- [安装Anaconda](https://www.jianshu.com/p/62f155eb6ac5)
+- [安装pycharm](https://blog.csdn.net/u014044812/article/details/78727496)
+
+#### 编程练习
+
+**conda命令**
+
+1. 查看已安装的包名和版本号
+
+```
+conda list
+```
+
+2. 版本号
+
+```
+conda --version
+```
+
+3. 查看conda帮助信息
+
+
+```
+conda --help
+```
+
+或
+
+```
+conda -h 
+```
+
+**CODING**
+
+1. ex1:
+
+```
+import this
+```
+
+效果：
+
+![](http://ww1.sinaimg.cn/large/006al29xly1g3bp570dkyj30hi0f2q43.jpg)
+
+
+
+2. ex2:
+
+```
+import turtle
+
+turtle.pensize(4)
+turtle.pencolor('red')
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.mainloop()
+```
+
+效果： 
+
+![](http://ww1.sinaimg.cn/large/006al29xly1g3bp44k0igj30zi0v274a.jpg)
+
+
+
